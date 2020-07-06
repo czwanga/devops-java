@@ -10,12 +10,12 @@ pipeline {
     }
 
     environment {
-        DOCKER_CREDENTIAL_ID = 'dockerhub-id'
-        GITHUB_CREDENTIAL_ID = 'github-id'
-        KUBECONFIG_CREDENTIAL_ID = 'demo-kubeconfig'
-        REGISTRY = 'docker.io'
-        DOCKERHUB_NAMESPACE = 'docker_username'
-        GITHUB_ACCOUNT = 'kubesphere'
+        DOCKER_CREDENTIAL_ID = 'github-350546'
+        GITHUB_CREDENTIAL_ID = 'docker-repo'
+        KUBECONFIG_CREDENTIAL_ID = 'sre-kubeconfig'
+        REGISTRY = 'dockerhub.qingcloud.com'
+        DOCKERHUB_NAMESPACE = 'ecmecm'
+        GITHUB_ACCOUNT = '15501140010'
         APP_NAME = 'devops-java-sample'
         SONAR_CREDENTIAL_ID = 'sonar-token'
     }
